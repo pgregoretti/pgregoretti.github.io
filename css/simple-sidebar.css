@@ -15,6 +15,7 @@ b{
     color: #71C8C3;
 }
 
+/*
 .thumbnail{
     width: 210px;
     float: left;
@@ -26,7 +27,7 @@ b{
     display: flex;
     height: auto;
 }
-
+*/
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
@@ -44,6 +45,7 @@ a {
 #about-img {
     margin-top: 20px;
     box-shadow: 5px 2px 1px #FDFFC2;
+    max-width: 100%;
 }
 
 /* Toggle Styles */
