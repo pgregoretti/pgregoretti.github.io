@@ -1,0 +1,153 @@
+.nav {
+    background-color: #fff;
+    padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body {
+    background-color: gainsboro;
+    color: #000;
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+    margin-top: auto;
+  padding: 0px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline-block;
+    color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+    margin-top: auto;
+  padding: 0px 10px;
+  text-transform: uppercase;
+}
+
+.pull-right {
+margin-top: 40px;
+}
+
+.pull-left {
+    margin-top: 10px;
+}
+
+.jumbotron {
+    padding-top: 50px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2f8589+0,42c0bc+50,37b3b1+100,8cdad6+100,37b3b1+101 */
+background: #2f8589; /* Old browsers */
+background: -moz-linear-gradient(top,  #2f8589 0%, #42c0bc 50%, #37b3b1 100%, #8cdad6 100%, #37b3b1 101%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2f8589), color-stop(50%,#42c0bc), color-stop(100%,#37b3b1), color-stop(100%,#8cdad6), color-stop(101%,#37b3b1)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #2f8589 0%,#42c0bc 50%,#37b3b1 100%,#8cdad6 100%,#37b3b1 101%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #2f8589 0%,#42c0bc 50%,#37b3b1 100%,#8cdad6 100%,#37b3b1 101%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #2f8589 0%,#42c0bc 50%,#37b3b1 100%,#8cdad6 100%,#37b3b1 101%); /* IE10+ */
+background: linear-gradient(to bottom,  #2f8589 0%,#42c0bc 50%,#37b3b1 100%,#8cdad6 100%,#37b3b1 101%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f8589', endColorstr='#37b3b1',GradientType=0 ); /* IE6-9 */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 20px 15px;
+    margin-bottom: 0px;
+}
+
+.jumbotron h1 {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    height:70px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    text-align: left;
+}
+
+.learn-more {
+    background-color: white;
+    padding-bottom: 50px;
+    padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.whole {
+    background-color: gainsboro;
+    box-shadow: 6px 0px 5px -3px #999, -6px 0px 5px -3px #999;
+        width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    height:100%;
+}
+
+#bottom {
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.testimonies {
+    color: #1f497d;
+    font-family: Georgia, seriff;
+    font-style: italic;
+    text-align: justify;
+    line-height: 37px;
+    font-size: 25px;
+    text-shadow: 2px 1px 3px gainsboro;
+}
+
+.attribute {
+    text-align: right;
+    font-size: 12px;
+}
+
+#form {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6f8f9+0,e5ebee+50,d7dee3+51,f5f7f9+100;White+Gloss */
+background: #f6f8f9; /* Old browsers */
+background: -moz-linear-gradient(top,  #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6f8f9), color-stop(50%,#e5ebee), color-stop(51%,#d7dee3), color-stop(100%,#f5f7f9)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=0 ); /* IE6-9 */
+    box-shadow: 2px 2px 15px #000000;
+    border-radius: 15px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#content-1, #content-2, #content-3 {
+    padding-top: 10px;
+    height: 225px;
+}
+
+#legal {
+    font-size: 10px;
+}
+
+.pull-right li {
+    font-size: 12px;
+}
+
+#savings {
+    text-align: justify;
+    line-height: 30px;
+    font-size: 16px;
+    color: #333;
+    font-family: Georgia, serif;
+}
+
+.jumbotron h2 {
+    font-family: Georgia, serif;
+}
+
+h1 {
+    margin: 0px 0px 0px 0px;
+}
