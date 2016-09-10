@@ -34,6 +34,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 15px;
 }
 
+.thumbnail{
+    height:450px;
+}
+
 a {
     color:#71C8C3;
 }
