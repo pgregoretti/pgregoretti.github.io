@@ -1054,9 +1054,9 @@ li+li{
     margin-top:.7em
 }
 body,html{
-    font-family:helvetica,sans-serif;
+    font-family:georgia,sans-serif;
     color:#000;
-    font-size:18px;
+    font-size:22px;
     font-weight:400
 }
 a{
@@ -1200,10 +1200,6 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
 }
-
-
-
-
 .introduction{
     margin-top:4em
 }
@@ -1292,11 +1288,12 @@ h1 {
 }
 .portfolio {
     margin: auto;
-    width: 75%;
+    width: 65%;
 }
 
-.content p {
+p {
     text-align: justify;
+    column-count: 1;
 }
 
 .home {
@@ -1306,4 +1303,9 @@ background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.45) 100%)
 background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.45) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#73000000',GradientType=0 ); /* IE6-9 */
     background-attachment: fixed;
+}
+
+#small-blurb {
+    font-size: 18px;
+    text-align: left;
 }
