@@ -1054,7 +1054,7 @@ li+li{
     margin-top:.7em
 }
 body,html{
-    font-family:georgia,sans-serif;
+    font-family: mango,-apple-system,system-ui,"Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
     color:#000;
     font-size:22px;
     font-weight:400
@@ -1141,12 +1141,12 @@ em{
    margin: -8px 0px 0px 0px;
 }
 a {
-    color:greenyellow;
+    color:#3845FF;
 }
 .header .links .link{
     font-family: 'VT323', monospace;
     text-transform:uppercase;
-    color:greenyellow;
+    color:#3845FF;
     padding:0 10px;
     -webkit-transition:color .33s ease;
     transition:color .33s ease;
@@ -1296,16 +1296,13 @@ p {
     column-count: 1;
 }
 
-.home {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.45+100 */
-background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.45) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.45) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.45) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#73000000',GradientType=0 ); /* IE6-9 */
-    background-attachment: fixed;
-}
+
 
 #small-blurb {
-    font-size: 18px;
+    font-size: 16px;
     text-align: left;
+}
+
+#small-blurb-header{
+    font-size:50px
 }
