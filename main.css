@@ -1306,3 +1306,16 @@ p {
 #small-blurb-header{
     font-size:50px
 }
+
+.bg {
+    /* The image used */
+    background-image: url("/media/gradient-grainy-gradient-texture-wallpaper_23-2148968811.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
